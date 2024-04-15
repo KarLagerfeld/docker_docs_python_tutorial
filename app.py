@@ -13,7 +13,7 @@ else:
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Docker!!! Docker Rocks!!!!'
+    return 'Hello, Docker!!! Docker Rocks!!!! And it is free!!!'
 
 
 @app.route('/widgets')
