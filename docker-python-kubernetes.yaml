@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
        - name: flask-service
-         image: karlagerfeld/docker_docs_python_tutorial
+         image: karlagerfeld/docker_docs_python_tutorial:latest
          imagePullPolicy: Always
          env:
           - name: POSTGRES_PASSWORD
